@@ -90,7 +90,7 @@ namespace Ex05Threads
 		{
 			lock (summarizer)
 			{
-				Console.Clear();//
+				Console.Clear();//yh
 				Console.WriteLine("Total: " + summarizer.Count + "\n");
 				
 				for(int i = 0; i < summarizer.Count; i++)
